@@ -10,7 +10,7 @@ import type { FrameTransactionResponse } from '@coinbase/onchainkit/frame';
 async function getResponse(req: NextRequest): Promise<NextResponse | Response> {
   const body: FrameRequest = await req.json();
   // Remember to replace 'NEYNAR_ONCHAIN_KIT' with your own Neynar API key
-  /*const { isValid } = await getFrameMessage(body, { neynarApiKey: 'NEYNAR_ONCHAIN_KIT' });
+  const { isValid } = await getFrameMessage(body, { neynarApiKey: 'NEYNAR_ONCHAIN_KIT' });
 
   if (!isValid) {
     return new NextResponse('Message not valid', { status: 500 });
@@ -33,7 +33,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse | Response> {
       value: parseEther('0.00004').toString(), // 0.00004 ETH
     },
   };
-  return NextResponse.json(txData); */
+  return NextResponse.json(txData); 
     return getResponse(req);
 }
 
