@@ -15,7 +15,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/Berlin.png`,
+    src: `${NEXT_PUBLIC_URL}/banner.png`,
     aspectRatio: '1:1',
   }
   
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Berlin Base Frame project',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/Berlin.png`],
+    images: [`${NEXT_PUBLIC_URL}/banner.png`],
   },
   other: {
     ...frameMetadata,
