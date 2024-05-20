@@ -23,7 +23,9 @@ const frameMetadata = getFrameMetadata({
   input: {
     text: 'Tell me a story',
   },
-  postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
+//  postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
+  postUrl: `https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk`,
+  
 });
 
 export const metadata: Metadata = {
