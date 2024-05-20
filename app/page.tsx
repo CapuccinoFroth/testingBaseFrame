@@ -2,18 +2,16 @@ import { getFrameMetadata } from '@coinbase/onchainkit/frame';
 import type { Metadata } from 'next';
 import { NEXT_PUBLIC_URL } from './config';
 
+
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
       label: 'Story time1',
     },
     {
-      action: 'tx',
-      label: 'Send Base Sepolia- Test',
-      target: `${NEXT_PUBLIC_URL}/api/tx`,
-      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`, 
-     // target: `https://testnets.opensea.io/collection/avocados-1`,
-     // postUrl: `https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk`,
+      action: 'link',
+      label: 'Holograph',
+      target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
     },
   ],
   image: {
