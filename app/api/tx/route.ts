@@ -28,8 +28,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse | Response> {
     params: {
       abi: [],
       data,
-      //to: BUY_MY_COFFEE_CONTRACT_ADDR,
-      to: "0x5acd432e02BD6BAfE819b044FcCf60F278C7b8E1", //Lore's nft contract address
+      to: BUY_MY_COFFEE_CONTRACT_ADDR,
+     // to: "0x5acd432e02BD6BAfE819b044FcCf60F278C7b8E1", //Lore's nft contract address
       value: parseEther('0.00004').toString(), // 0.00004 ETH
     },
   };
