@@ -10,8 +10,13 @@ const frameMetadata = getFrameMetadata({
     },*/
     {
       action: 'link',
-      label: 'Go Mint your access!',
+      label: 'test mint',
       target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
+    },
+    {
+      action: 'mint',
+      label: 'Go Mint your access!',
+      target: 'https://testnets.opensea.io/assets/base-sepolia/0xf9f9755cb214ba584866f976fe83a0e467692bb5/1',
     },
   ],
   image: {
