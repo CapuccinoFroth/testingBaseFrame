@@ -10,9 +10,9 @@ const frameMetadata = getFrameMetadata({
     {
       action: 'tx',
       label: 'Send Base Sepolia- Test',
-      //target: `${NEXT_PUBLIC_URL}/api/tx`,
+      target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`, 
-      target: `https://testnets.opensea.io/collection/avocados-1`,
+     // target: `https://testnets.opensea.io/collection/avocados-1`,
      // postUrl: `https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk`,
     },
   ],
