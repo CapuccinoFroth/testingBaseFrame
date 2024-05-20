@@ -5,9 +5,9 @@ import { NEXT_PUBLIC_URL } from './config';
 
 const frameMetadata = getFrameMetadata({
   buttons: [
-    {
+   /* {
       label: 'Story time2',
-    },
+    },*/
     {
       action: 'link',
       label: 'Holograph',
