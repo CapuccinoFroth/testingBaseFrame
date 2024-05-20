@@ -10,7 +10,7 @@ const frameMetadata = getFrameMetadata({
     },*/
     {
       action: 'link',
-      label: 'Holograph',
+      label: 'Go Mint',
       target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
     },
   ],
