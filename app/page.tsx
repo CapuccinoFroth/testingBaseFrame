@@ -8,11 +8,11 @@ const frameMetadata = getFrameMetadata({
    /* {
       label: 'Story time2',
     },*/
-    {
+    /*{
       action: 'mint',
       label: 'test mint',
       target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
-    },
+    },*/
     {
       action: 'link',
       label: 'Go Mint your access!',
