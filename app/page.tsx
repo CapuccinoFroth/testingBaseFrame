@@ -14,9 +14,13 @@ const frameMetadata = getFrameMetadata({
       target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
     },*/
     {
-      action: 'mint',
-      label: 'Mint test',
-      target: 'https://testnets.opensea.io/assets/base-sepolia/0xf9f9755cb214ba584866f976fe83a0e467692bb5/1',
+      
+        action: 'tx',
+        label: 'test',
+        target: `${NEXT_PUBLIC_URL}/api/tx`,
+        postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+      
+     // target: 'https://testnets.opensea.io/assets/base-sepolia/0xf9f9755cb214ba584866f976fe83a0e467692bb5/1',
     },
   ],
   image: {
