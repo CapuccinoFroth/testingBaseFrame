@@ -38,7 +38,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
         {
           action: 'link',
-          label: 'OnchainKit',
+          label: 'Holograph',
           target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
         },
       ],
