@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Berlin Base Frame project',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/park-1.png`],
+    images: [`${NEXT_PUBLIC_URL}/DE.png`],
   },
   other: {
     ...frameMetadata,
