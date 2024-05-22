@@ -31,12 +31,12 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'ziz.xyz',
+  title: 'Avocados from the World',
   description: 'LFG',
   openGraph: {
-    title: 'Berlin Base Frame project',
+    title: 'Avocados from the World',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/banner.png`],
+    images: [`${NEXT_PUBLIC_URL}/DE.png`],
   },
   other: {
     ...frameMetadata,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Berlin Base Frame project1</h1>
+      <h1>Berlin Base Frame project - Avocados NFTs</h1>
     </>
   );
 }
