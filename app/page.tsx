@@ -10,8 +10,8 @@ const frameMetadata = getFrameMetadata({
     },*/
     {
       action: 'link',
-      label: 'Go Mint you access!',
-      target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
+      label: 'Go Mint your Avocado!',
+      target: 'https://opensea.io/collection/avocados-from-the-world',
     },
  /*    {
       
@@ -24,7 +24,7 @@ const frameMetadata = getFrameMetadata({
     },*/
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/banner.png`,
+    src: `${NEXT_PUBLIC_URL}/DE.png`,
     aspectRatio: '1:1',
   }
   
