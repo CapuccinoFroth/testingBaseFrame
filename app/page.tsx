@@ -8,12 +8,12 @@ const frameMetadata = getFrameMetadata({
    /* {
       label: 'Story time2',
     },*/
-    /*{
-      action: 'link',
-      label: 'Go Mint you access!',r
-      target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
-    },*/
     {
+      action: 'link',
+      label: 'Go Mint you access!',
+      target: 'https://testnet.holograph.xyz/open-edition/joey-collins-requiem-by-joey-collins-uk',
+    },
+ /*    {
       
         action: 'tx',
         label: 'test',
@@ -21,7 +21,7 @@ const frameMetadata = getFrameMetadata({
         postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
       
      // target: 'https://testnets.opensea.io/assets/base-sepolia/0xf9f9755cb214ba584866f976fe83a0e467692bb5/1',
-    },
+    },*/
   ],
   image: {
     src: `${NEXT_PUBLIC_URL}/banner.png`,
